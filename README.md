@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Tech
+
+1. Next js 16
+2. MongoDb for the database
+    - set the env MONGODB_URI and the cluster name also the collection name
+    - create lib/db.ts
+3. Authentication use Better-Auth (see the web documentation)
+    - Login use aj**\*\***g@gmail.com
+    - need to install npx ngrok http 3000 on february 2026 (but now not implemented also in tutorial)
+    - get the api key, and set to the env for BETTER_AUTH_SECRET
+    - set env for BETTER_AUTH_URL (according to the env PROD / DEV)
+
+## Source
+
+https://www.youtube.com/watch?v=vCIsrOGNhas
